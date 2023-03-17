@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS-loginWeb_By_katalonDataFiles</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>3ee46d77-b330-449e-9f06-214fd98e5111</testSuiteGuid>
+   <testCaseLink>
+      <guid>df6de24a-ef1f-4564-8bde-69809d8b1d8e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Work-katalonData_file_Test/tc_Data-katalonWeb</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3a5758eb-eaa0-4b57-a3a0-7abc1ad050ad</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DB-katalonData_file_Test/checkPass_loginKatalon</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>3a5758eb-eaa0-4b57-a3a0-7abc1ad050ad</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>demo_usn</value>
+         <variableId>2f3629b4-3fdc-417a-bda5-82175bde2c04</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3a5758eb-eaa0-4b57-a3a0-7abc1ad050ad</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>demo_pwd</value>
+         <variableId>f1c64701-9f3d-4676-b427-bdbd1120b5de</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7d948770-7bf2-4e27-b76a-41513da0180c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Work-katalonData_file_Test/tc_Data-katalonWeb_fail</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>399ae1e0-f5e0-4494-a49d-341660b7b054</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DB-katalonData_file_Test/checkFail_loginKatalon</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>399ae1e0-f5e0-4494-a49d-341660b7b054</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>demo_usn</value>
+         <variableId>cf8ba3c8-da13-4014-b25e-5437e9ea1ebb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>399ae1e0-f5e0-4494-a49d-341660b7b054</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>demo_pwd</value>
+         <variableId>be9f2bdc-d0a7-4003-a509-2ce21b832a2f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

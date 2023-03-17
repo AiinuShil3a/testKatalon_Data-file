@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description>//*[@id=&quot;ContentPlaceHolder1_checkPDPA&quot;]</description>
+   <name>cheackbox-RS-phone</name>
+   <tag></tag>
+   <elementGuidId>be80efbe-d996-415f-994f-3a4b095e5307</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;ContentPlaceHolder1_checkPDPA&quot;]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>
